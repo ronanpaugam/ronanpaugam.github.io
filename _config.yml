@@ -9,8 +9,8 @@ permalink:        pretty
 title:            'Ronan Paugam'
 tagline:          'My Research'
 description:      'Research in Fire/Atmospheric Science'
-url:              http://pogam.github.io
-baseurl:          /
+url:              "https://ronanpaugam.github.io"
+baseurl:          "/"
 
 author:
   name:           'Ronan Paugam'
@@ -21,6 +21,6 @@ paginate:         1
 version:          2.1.0
 #
 #github:
-#  repo:           https://github.com/pogam
+#  repo:           https://github.com/ronanpaugam
 
 plugins: [jekyll-paginate,jekyll-gist]
