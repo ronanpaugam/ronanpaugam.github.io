@@ -34,6 +34,7 @@ I am currently a Visiting Scholar at the University of Washington. I am  based a
 
 
 ### Referenced conference publications:
+*	Liu, Yongqiang; Kochanski, A; Baker, K; Mell, W; Linn, R; **Paugam, R**; Mandel, J; Fournier, A; Jenkins, M A; Goodrick, S; Achtemeier, G; Hudak, A; Dickson, M; Potter, B; Clements, C; Urbanski, S; Ottmar, R; Larkin, N; Brown, T; French, N; Prichard, S; Watts, A; McNamara, D. 2017. Fire and Smoke Model Evaluation Experiment (FASMEE): Modeling gaps and data needs. In: Proceedings for the 2nd International Smoke Symposium November; 14-17, 2016, Long Beach, California, USA. Missoula, MT: International Association of Wildland Fire. 13 p. 
 *	**R. Paugam**, M. Wooster, G. Papadakis, and M. Schultz: Estimation of the Injection Height of Biomass Burning Emission, Proceeding for the ESA-iLEAPS-EGU joint conference, Frascati, Italy, November 2010
 *	**R. Paugam**, R. Paoli, D. Cariolle and B. Cuenot: Numerical simulation of aircraft plume evolution using a mesoscale code, Proceedings of the International Conference on Transport, Atmosphere and Climate, Oxford, UK, June 2006.
 
