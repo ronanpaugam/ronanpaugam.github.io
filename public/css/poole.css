@@ -80,7 +80,7 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -101,6 +101,10 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+h7 {
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
 }
 
 /* Body text */
@@ -233,6 +237,15 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+
+/* ronan */
+.img-left {
+  display: block;
+  max-width: 120px;
+  float: left;
+  margin-right: 1rem;
+}
+.croptext {overflow:hidden;height:120px;}
 
 /* Tables */
 table {

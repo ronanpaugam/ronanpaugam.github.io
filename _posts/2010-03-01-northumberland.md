@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Heather Fire Northumberland
+description: Example of georeferenced Middle Infra Red images from a small scale fire
+thumbnail: "/data/northumberland/northumberland_thumbnail.jpg"
 ---
 
 ![placeholder](/data/northumberland/northumberland_overView.png "Northumberland Overview")
@@ -18,3 +20,6 @@ The animations below shows the raw thermal brightness temperature time-series, a
 ![placeholder](/data/northumberland/flame-front-propagation_800x400.png "Northumberland fire: flame front")
 
 ![placeholder](/data/northumberland/ignition-with-drip-torche800x400.png "Northumberland fire: Drip Torche Ignition")
+
+### References:
+Paugam R., Wooster, M. J. and Roberts, G, 2013: Use of Handheld Thermal Imager Data for Airborne Mapping of Fire Radiative Power and Energy and Flame Front Rate of Spread, Geoscience and Remote Sensing, IEEE Transactions on , vol.51, no.6, pp.3385,3399, [link to the paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6377291)
