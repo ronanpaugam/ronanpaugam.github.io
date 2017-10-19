@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-![placeholder](/data/ronan.paugam-150x150.jpg "ronan")
-I am currently a Visiting Scholar at the University of Washington. I am  based at the Pacific Wildland Fire Sciences Laboratory where I am working with Rudy Mell from the US Forest Service. My CV is available [here](/data/cv-ronan-paugam_2017.pdf).
+![placeholder](/data/ronan.paugam-150x150.jpg "ronan"){:class="img-left-150"}
+I am currently a Visiting Scholar at the University of Washington (USA). I have been based at the Pacific Wildland Fire Sciences Laboratory since early 2016 where I am working with Ruddy Mell from the US Forest Service.
+I previously worked at Kings College London (UK) in the team of Martin Wooster for nearly 8 years (2008 to 2015). Prior to this position, I did my PhD at Cerfacs in Toulouse (France) from 2005 to 2008 with the supervision of Daniel Cariolle. My CV is available [here](/data/cv-ronan-paugam_2017.pdf).
 
 
 # Research Interest
@@ -18,7 +19,7 @@ I am currently a Visiting Scholar at the University of Washington. I am  based a
 # Publication
 
 ### Peer-reviewed publications:
-1.  Sauvage, B., Fontaine, A., Eckhardt, S., Auby, A., Boulanger, D., Petetin, H., **Paugam, R.**, Athier, G., Cousin, J.-M., Darras, S., Nédélec, P., Stohl, A., Turquety, S., Cammas, J.-P., and Thouret, V.: Source attribution using FLEXPART and carbon monoxide emission inventories: SOFT-IO version 1.0, Atmos. Chem. Phys. Discuss., https://doi.org/10.5194/acp-2017-653, in review, 2017. 
+1.  Sauvage, B., Fontaine, A., Eckhardt, S., Auby, A., Boulanger, D., Petetin, H., **Paugam, R.**, Athier, G., Cousin, J.-M., Darras, S., Nédélec, P., Stohl, A., Turquety, S., Cammas, J.-P., and Thouret, V.: Source attribution using FLEXPART and carbon monoxide emission inventories: SOFT-IO version 1.0, Atmos. Chem. Phys. Discuss., https://doi.org/10.5194/acp-2017-653, in review, 2017.
 2.	Johnston, J., Wooster M, **Paugam R.**, Wang X., Lynham T., Johnston L.: Direct estimation of Byram’s fire intensity from infrared remote sensing imagery, Inter. J. of Wildland Fire, (accepted)  2017.
 3.	Rémy, S., Veira, A., **Paugam, R.**, Sofiev, M., Kaiser, J. W., Marenco, F., Burton, S. P., Benedetti, A., Engelen, R. J., Ferrare, R., and Hair, J. W.: Two global data sets of daily fire emission injection heights since 2003, Atmos. Chem. Phys., 17, 2921-2942, doi:10.5194/acp-17-2921-2017, 2017.
 4.	Evangeliou, Nikolaos; Zibtsev, S.; Myroniuk, V.; Zhurba, M.; Hamburger, Thomas; Stohl, Andreas; Balkanski, Y.; **Paugam, R.**; Mousseau, T.A.; Møller, A.P.; Kireev, S.I.: Resuspension and atmospheric transport of radionuclides due to wildfires near the Chernobyl Nuclear Power Plant in 2015: An impact assessment. Scientific Reports, Nature, doi:10.1038/srep26062,  2016.
@@ -34,7 +35,7 @@ I am currently a Visiting Scholar at the University of Washington. I am  based a
 
 
 ### Referenced conference publications:
-*	Liu, Yongqiang; Kochanski, A; Baker, K; Mell, W; Linn, R; **Paugam, R**; Mandel, J; Fournier, A; Jenkins, M A; Goodrick, S; Achtemeier, G; Hudak, A; Dickson, M; Potter, B; Clements, C; Urbanski, S; Ottmar, R; Larkin, N; Brown, T; French, N; Prichard, S; Watts, A; McNamara, D. 2017. Fire and Smoke Model Evaluation Experiment (FASMEE): Modeling gaps and data needs. In: Proceedings for the 2nd International Smoke Symposium November; 14-17, 2016, Long Beach, California, USA. Missoula, MT: International Association of Wildland Fire. 13 p. 
+*	Liu, Yongqiang; Kochanski, A; Baker, K; Mell, W; Linn, R; **Paugam, R**; Mandel, J; Fournier, A; Jenkins, M A; Goodrick, S; Achtemeier, G; Hudak, A; Dickson, M; Potter, B; Clements, C; Urbanski, S; Ottmar, R; Larkin, N; Brown, T; French, N; Prichard, S; Watts, A; McNamara, D. 2017. Fire and Smoke Model Evaluation Experiment (FASMEE): Modeling gaps and data needs. In: Proceedings for the 2nd International Smoke Symposium November; 14-17, 2016, Long Beach, California, USA. Missoula, MT: International Association of Wildland Fire. 13 p.
 *	**R. Paugam**, M. Wooster, G. Papadakis, and M. Schultz: Estimation of the Injection Height of Biomass Burning Emission, Proceeding for the ESA-iLEAPS-EGU joint conference, Frascati, Italy, November 2010
 *	**R. Paugam**, R. Paoli, D. Cariolle and B. Cuenot: Numerical simulation of aircraft plume evolution using a mesoscale code, Proceedings of the International Conference on Transport, Atmosphere and Climate, Oxford, UK, June 2006.
 
