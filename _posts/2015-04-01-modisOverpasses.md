@@ -3,6 +3,7 @@ layout: post
 title: Collecting Data from Multiple Modis Overpasses
 description: Presentation of an algorithm which extracts from the MODIS archive several products from multiple overpasses of the same fire
 thumbnail: "/data/modisOverpasses/modisOverpass_thumbnail.png"
+tags: [remoteSensing]
 ---
 
 

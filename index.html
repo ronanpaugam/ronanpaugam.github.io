@@ -6,24 +6,46 @@ title: My Research Work
 
 
 <p>
-<h1 class="title">
-Example of some of my Research Works
-</h1>
-<br>
+<h1 class="title"> Example of some of my Research </h1>
 </p>
 
+<p>
+<h2 class="title" >in Remote Sensing</h2>
+</p>
 {% for post in site.posts %}
-    <p>
-    <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" class="img-left-120" >
-    <div class="croptext120">
-      <h7><a href="{{ post.url }}">{{ post.title }}</a></h7>
-      <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p>
-    </div>
-    <br>
-    </p>
+    {% for tag in post.tags %}
+      {% if tag == 'remoteSensing' %}
+        <p>
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" class="img-left-120" >
+        <div class="croptext120">
+        <h7><a href="{{ post.url }}">{{ post.title }}</a></h7>
+        <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p>
+        </div>
+        <br>
+        </p>
+      {% endif %}
+    {%endfor%}
+
 {% endfor %}
 
 
+<p>
+<h2 class="title" >in Modelling</h2>
+</p>
+{% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == 'modelling' %}
+        <p>
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" class="img-left-120" >
+        <div class="croptext120">
+        <h7><a href="{{ post.url }}">{{ post.title }}</a></h7>
+        <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p>
+        </div>
+        <br>
+        </p>
+      {% endif %}
+    {% endfor %}
+{% endfor %}
 <!--
 <div class="posts">
   {% for post in paginator.posts %}

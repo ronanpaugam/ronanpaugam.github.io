@@ -3,6 +3,7 @@ layout: post
 title: Heather Fire Northumberland
 description: Example of georeferenced Middle Infra Red images from a small scale fire
 thumbnail: "/data/northumberland/northumberland_thumbnail.jpg"
+tags: [remoteSensing, fieldwork]
 ---
 
 ![placeholder](/data/northumberland/northumberland_overView.png "Northumberland Overview")

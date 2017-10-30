@@ -244,6 +244,7 @@ img {
 }
 
 /* ronan */
+
 .img-left-120 {
   display: block;
   max-width: 120px;
@@ -262,6 +263,21 @@ img {
   margin-bottom: 1px;
 }
 
+/* ronan for _include/image.html*/
+.myimg {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 0rem;
+  border-radius: 5px;
+}
+.figcaption {
+  font-size: 0.7rem;
+  line-height: .8em;
+  text-align:right;
+  font-style: italic;
+}
+
+/* ronan edit ends here *?
 
 /* Tables */
 table {
