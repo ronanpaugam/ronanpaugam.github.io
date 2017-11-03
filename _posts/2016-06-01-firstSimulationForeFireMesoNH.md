@@ -28,7 +28,7 @@ The flux model also includes:
 - a passive tracer which is set using an emission factor (EF) formulation, such that its mass flux is the product of the EF and the fuel mass consumption rate estimated from the FRP and a conversion factor of 0.4 (Wooster et al 2005). For note, here we use EF=0.05kg/kg.
 
 The residence time and nominal flux of the different components of the flux model are mapped and pass together with an arrival time map to the meso-scale atmospheric model MesoNH via the interface of its fire module based on the ForeFire fire spread model. ForeFire ensures here the flux conservation from the 1m gridded map to the MesoNH grid.
-The MesoNH grid is 1000x1000x726 m<sup>3</sup> with a 10m resolution mesh and stretched vertically above 570m with a 10% increase. In this first simulation, only the LES scheme of MesoNH is activated (e.g. microphysics is switched off).
+The MesoNH domain is a box of 1000x1000 meter square along 726 meter high with an homogeneous 10m resolution mesh stretched vertically above 570m with a 10% increase. In this first simulation, only the LES scheme of MesoNH is activated (e.g. microphysics is switched off).
 Ambient condition are set constant for the duration of the burn with a standard wind profile power law (1/7) and no lapse rate, and set using pre-burn measurement from a weather station located upwind of the plot (2m/s at 2m above the ground, 20 degree, and  33% humidity).
 
 Result from the MesoNH simulation is shown below. This is a perspective view of the scene for an observer located upwind. It shows the advection of the passive tracer, the convective flux at ground level and iso-contours of potential temperature at the outlet of the domain.  
