@@ -17,6 +17,7 @@ The MIR images were collected from a helicopter hovering above a 7ha plot with a
 The fire we selected for this simulation was conducted on the plot 6 of the Skukuza plot strip of Kruger National Park. The vegetation type is Savannah with a low fuel load of 2.6 T/ha.
 Georeferenced images of the fire form a long wave thermal camera and a IR-modified Gopro camera operated together with the MIR camera can be seen [here](https://ronanpaugam.github.io/2014/06/26/knp14/),
 while the MIR data with fire front Rate of Spread (ROS) can be seen below. All images are georeferenced on a 1-meter resolution grid.
+
 {% include youtubePlayer.html id="ktGnnqTpUCg" label="Georeferenced MIR images from the skukuza6 burn"%}
 
 From the georeferenced MIR images, the Fire Radiative Power (FRP) is computed following Paugam et al (2013) and a mean radiative flux is calculated for both flaming and smoldering fire regimes according to the local flaming residence time extracted from the georeferenced images with a simple threshold method (brightness temperature < 600K).
