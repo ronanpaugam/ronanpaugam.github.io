@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Step for Grass Fuel Consumption Estimation from UAV
-description: Estimating Digital Surface Model from UAV borne visible images to calculate vegetation volume.      
+description: Estimating Digital Surface Model from UAV borne visible images to calculate vegetation volume     
 thumbnail: "/data/FuelLoadEstimationFromUAV/thumbnail.png"
 tags: [remoteSensing,fieldwork]
 ---
