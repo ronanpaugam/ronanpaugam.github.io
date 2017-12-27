@@ -2,7 +2,7 @@
 layout: post
 title: Contrail Simulation
 description: Numerical simulation of a condensation trail evolution and its interaction with the atmospheric turbulence  
-thumbnail: "/data/ContrailSimulation/contrailSimulation_thumbnail.png"
+thumbnail: "/data/ContrailSimulation/contrailSimulation_thumbnail2.png"
 tags: [modelling]
 ---
 
