@@ -7,4 +7,5 @@ gem "jekyll-gist"
 gem "jekyll-feed"
 gem "jemoji"
 gem "pygments.rb"
+gem 'nokogiri', '~> 1.8.2'
 # gem "jekyll-
