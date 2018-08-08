@@ -23,4 +23,5 @@ version:          2.1.0
 #github:
 #  repo:           https://github.com/ronanpaugam
 
-plugins: [jekyll-paginate,jekyll-gist]
+#plugins
+gems : [jekyll-paginate,jekyll-gist]
