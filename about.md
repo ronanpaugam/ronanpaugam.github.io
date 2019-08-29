@@ -4,8 +4,7 @@ title: About Me
 ---
 
 ![placeholder](/data/ronan.paugam-150x150.jpg "ronan"){:class="img-left-150"}
-I am currently a Visiting Scholar at the University of Washington (USA) based at the Pacific Wildland Fire Sciences Laboratory since early 2016. I am working there with Ruddy Mell from the US Forest Service.
-Prior to this position, I worked at Kings College London (UK) in the team of Martin Wooster for nearly 8 years (2008 to 2015), and performed my PhD at Cerfacs in Toulouse (France) under the supervision of Daniel Cariolle and Roberto Paoli (2005-2008). My CV is available [here](/data/cv-ronan-paugam_2017.pdf).
+I am currently setting up an agreement between the US Forest Service and the Universitat Politècnica de Catalunya in Barcelona (UPC) to start working at UPC this coming autumn (2019) with Dr Elsa Pastor. This will follows a one-year position as a Postdoctoral Researcher at CERFACS (France) where I have been working with Melanie Rochoux. Prior to this position, I worked as a Visiting Scholar for 2 years (2016-2018) at the University of Washington (USA) at the Pacific Wildland Fire Sciences Laboratory in Seattle with Ruddy Mell from the US Forest Service, and as Postdoctoral Associate Researcher for 8 years at Kings College London (UK) in the team of Martin Wooster (2008 to 2015). I performed my PhD at Cerfacs in Toulouse (France) under the supervision of Daniel Cariolle and Roberto Paoli (2005-2008). My CV is available [here](/data/cv-ronan-paugam_2019.pdf){:target="_blank"}.
 
 
 # Research Interest
