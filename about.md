@@ -9,7 +9,7 @@ My CV is available [here](/data/cv-ronan-paugam_2019.pdf){:target="_blank"}.
 
 
 # Research Achievement and Interest
-My main scientific product achievement so far is the development of a parameterization for fire plume injection height which is now running operationally in the IFS model of ECMWF and was delivered in 2015 in the framework of the MACC project.
+My main scientific product achievement so far is the development of a parameterization for fire plume injection height which is now running operationally in the IFS model of ECMWF and was delivered in 2015 in the framework of the MACC project (see [here]({% post_url 2015-12-01-FIP }) for an overview of the work).
 
 In 2015 while still at KCL I initiated the development of a simulation strategy for the modelling of energy transfer in large-scale fire plume within a project supported by the European Space Agency (ESA). The end objective of this work that I have been continuing since then, during my time at PWSL and CERFACS, is to help improving Earth Observation active fire remote sensing products by creating a simulation tool (i.e. a virtual fire laboratory) capable to study energy transfer (in particular radiative transfer) in large-scale fire scene. In this work, I am particularly interested in designing and conducting fieldwork campaign (see [here]({% post_url 2014-06-26-knp14 %}) data from a fieldwork conducted in Kruger National Park in 2014), integrating fire radiation measurement from prescribed burn into atmospheric meso-scale model (see example of plume simulation [here](
 {% post_url 2016-06-01-firstSimulationForeFireMesoNH %}),
