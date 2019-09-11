@@ -2,17 +2,19 @@
 layout: page
 title: About Me
 ---
-
 ![placeholder](/data/ronan.paugam-150x150.jpg "ronan"){:class="img-left-150"}
-I am currently setting up an agreement between the US Forest Service and the Universitat Politècnica de Catalunya in Barcelona (UPC) to start working at UPC this coming autumn (2019) with Dr Elsa Pastor. This will follows a one-year position as a Postdoctoral Researcher at CERFACS (France) where I have been working with Melanie Rochoux. Prior to this position, I worked as a Visiting Scholar for 2 years (2016-2018) at the University of Washington (USA) at the Pacific Wildland Fire Sciences Laboratory in Seattle with Ruddy Mell from the US Forest Service, and as Postdoctoral Associate Researcher for 8 years at Kings College London (UK) in the team of Martin Wooster (2008 to 2015). I performed my PhD at Cerfacs in Toulouse (France) under the supervision of Daniel Cariolle and Roberto Paoli (2005-2008). My CV is available [here](/data/cv-ronan-paugam_2019.pdf){:target="_blank"}.
+Since 2008, I have been active in fire science on both active fire monitoring and fire-plume modelling. I am currently a postdoctoral researcher at CERFACS in Toulouse (France) with Dr Mélanie ROCHOUX where I started working in 2018 after an experience of 10 years abroad. Before coming back to France, I was a visiting scholar of the University of Washington for 2 years (2016-2018) working with Dr William MELL at the US Forest Service Pacific Wildland Fire Sciences Lab (PWSL) in Seattle (USA), and a postdoctoral researcher for 8 years (2008-2015) in the Department of Geography of Kings College London (KCL, UK) with Prof. Martin WOOSTER. Prior to that time abroad, I performed my PhD at CERFACS from 2005 to 2008 on the subject of contrail interaction with atmospheric turbulence under the supervision of Dr Daniel CARIOLLE and Dr Roberto Paoli.
+
+My CV is available [here](/data/cv-ronan-paugam_2019.pdf){:target="_blank"}.
 
 
-# Research Interest
-* Understanding Physics of Fire, in particular radiation
-* Developing coarse/empirically based radiative transfer model for large fire.
-* Fire Radiation Measurement – Remote Sensing techniques for prescribed burn.
-* Meso Scale Atmospheric Dynamics
-* Coupling of physical processes and turbulent atmospheric dynamics
+# Research Achievement and Interest
+My main scientific product achievement so far is the development of a parameterization for fire plume injection height which is now running operationally in the IFS model of ECMWF and was delivered in 2015 in the framework of the MACC project.
+
+In 2015 while still at KCL I initiated the development of a simulation strategy for the modelling of energy transfer in large-scale fire plume within a project supported by the European Space Agency (ESA). The end objective of this work that I have been continuing since then, during my time at PWSL and CERFACS, is to help improving Earth Observation active fire remote sensing products by creating a simulation tool (i.e. a virtual fire laboratory) capable to study energy transfer (in particular radiative transfer) in large-scale fire scene. In this work, I am particularly interested in designing and conducting fieldwork campaign (see [here]({% post_url 2014-06-26-knp14 %}) data from a fieldwork conducted in Kruger National Park in 2014), integrating fire radiation measurement from prescribed burn into atmospheric meso-scale model (see example of plume simulation [here](
+{% post_url 2016-06-01-firstSimulationForeFireMesoNH %}),
+and in fine generating realistic fire scene for radiative
+transfer model.
 
 
 # Publication
