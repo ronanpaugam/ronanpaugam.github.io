@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="page">
+
+<h1 class="page-title"> Examples of some of my Research </h1>
+
+<p>
+<h2 class="title" >in Remote Sensing</h2>
+</p>
+{% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == 'remoteSensing' %}
+        <p>
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" class="img-left-120" >
+        <div class="croptext120">
+        <h7><a href="{{ post.url }}">{{ post.title }}</a></h7>
+        <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p>
+        </div>
+        <br>
+        </p>
+      {% endif %}
+    {%endfor%}
+
+{% endfor %}
+
+
+<p>
+<h2 class="title" >in Modelling</h2>
+</p>
+{% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == 'modelling' %}
+        <p>
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" class="img-left-120" >
+        <div class="croptext120">
+        <h7><a href="{{ post.url }}">{{ post.title }}</a></h7>
+        <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p>
+        </div>
+        <br>
+        </p>
+      {% endif %}
+    {% endfor %}
+{% endfor %}
+
+</div>
