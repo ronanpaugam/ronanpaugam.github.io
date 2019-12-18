@@ -80,8 +80,8 @@ html {
   color: #fff;
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; */
-  font-family: "Ropa Sans", serif; 
-  font-size: 3.25rem;
+  font-family: "Ropa Sans", serif;
+  font-size: 3.10rem;
 }
 
 /* Sidebar nav */
@@ -98,6 +98,10 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+.sidebar-nav-item.hide-icon {
+  opacity:0;
 }
 
 /* Sticky sidebar

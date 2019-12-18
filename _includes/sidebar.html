@@ -10,7 +10,9 @@
     </div>
     <br>
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/index.html">My Research Work</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active {% endif %}  " href="/index.html">
+        <i class="fas fa-angle-right sidebar-nav-item{% if page.url != site.baseurl %} hide-icon  {% endif %}" > </i>
+         My Research Work</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -21,11 +23,15 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active {% endif %}" href="{{ node.url }}">
+                <i class="fas fa-angle-right sidebar-nav-item{% if page.url != node.url %} hide-icon  {% endif %}" > </i>
+                {{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
-      <br>
+    </nav>
+    <br>
+
 
       {% if site.author.orcid %}
         <li style="list-style: none;"><a href="{{ site.author.orcid }}" target="_blank"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
@@ -50,7 +56,6 @@
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
       <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a> -->
       <!--      <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
-    </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
