@@ -14,6 +14,11 @@ baseurl:          "/"
 
 author:
   name:           'Ronan Paugam'
+  orcid: "https://orcid.org/0000-0001-6429-6910"
+  github: "pogam"
+  researchgate: "https://www.researchgate.net/profile/Ronan_Paugam"
+  googlescholar: "https://scholar.google.com/citations?user=sp6qiIEAAAAJ&hl=en"
+  publons: "https://publons.com/researcher/1556045/ronan-paugam/"
 
 paginate:         1
 
