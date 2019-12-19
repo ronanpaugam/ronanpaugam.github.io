@@ -9,10 +9,13 @@
       <p class="lead">{{ site.description }}</p>
     </div>
     <br>
+    {% capture pageurl_local %} {{ page.url | replace: "/", "" | strip}} {% endcapture %}
+    {% capture baseurl_local %} {{ site.baseurl | replace: "/", "" | strip}} {% endcapture %}
+
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active {% endif %}  " href="/index.html">
-        <i class="fas fa-angle-right sidebar-nav-item{% if page.url != site.baseurl %} hide-icon  {% endif %}" > </i>
-         My Research Work</a> {{ page.url }} -- {{ site.baseurl }}
+      <a class="sidebar-nav-item{% if pageurl_local == baseurl_local %} active {% endif %}  " href="/index.html">
+        <i class="fas fa-angle-right sidebar-nav-item{% if pageurl_local != baseurl_local %} hide-icon  {% endif %}" > </i>
+         My Research Work</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
