@@ -54,8 +54,10 @@ html {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 5px;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -70,6 +72,23 @@ html {
   }
 }
 
+
+.bottombar {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+@media (min-width: 48em) {
+  .bottombar {
+    display: none;
+  }
+}
+
+
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
@@ -81,7 +100,50 @@ html {
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; */
   font-family: "Ropa Sans", serif;
+  font-size: 1.8rem;
+}
+@media (min-width: 48em) {
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  /* font-family: "Abril Fatface", serif; */
+  font-family: "Ropa Sans", serif;
   font-size: 3.10rem;
+}
+}
+
+.sidebar-social {
+  display: none;
+}
+@media (min-width: 48em) {
+.sidebar-social {
+  display: block;
+}
+}
+
+.corecontent-social {
+  display: block;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+}
+
+@media (min-width: 48em) {
+.corecontent-social {
+  display: none;
+}
+}
+
+.corecontent-social-title {
+  display: block;
+  margin-top: 0em;
+}
+@media (min-width: 48em) {
+.corecontent-social-title {
+  display: none;
+}
 }
 
 /* Sidebar nav */
@@ -110,11 +172,15 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
+.sidebar-sticky {
+    position: relative;
+    bottom: 0;
+  }
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    bottom: 0rem;
     left:   1rem;
   }
 }
@@ -127,8 +193,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 48em) {

@@ -18,7 +18,7 @@ and in fine generating realistic fire scene for radiative
 transfer model.
 
 
-# Publication
+# My Publications
 
 ### Peer-reviewed publications:
 1.	Evangeliou, N., Kylling, A., Eckhardt, S., Myroniuk, V., Stebel, K., **Paugam, R.**, Zibtsev, S., and Stohl, A.: Open fires in Greenland in summer 2017: transport, deposition and radiative effects of BC, OC and BrC emissions, Atmos. Chem. Phys., 19, 1393-1411, 2019.
