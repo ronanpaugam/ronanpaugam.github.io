@@ -7,6 +7,29 @@ Since 2008, I have been active in fire science on both active fire monitoring an
 
 My CV is available [here](/data/cv-ronan-paugam_2019.pdf){:target="_blank"}.
 
+<h1 class="corecontent-social-title"> Academic Social Network </h1>
+<div class="corecontent-social">
+    {% if site.author.orcid %}
+      <li style="list-style: none;"><a href="{{ site.author.orcid }}" target="_blank"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+    {% endif %}
+
+    {% if site.author.googlescholar %}
+      <li style="list-style: none;"><a href="{{ site.author.googlescholar }}" target="_blank" ><i class="ai ai-google-scholar-square ai-fw "></i> Google Scholar</a></li>
+    {% endif %}
+
+    {% if site.author.researchgate %}
+      <li style="list-style: none;"><a href="{{ site.author.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-fw" aria-hidden="true"></i> ResearchGate</a></li>
+    {% endif %}
+
+    {% if site.author.publons %}
+      <li style="list-style: none;" ><a href="{{ site.author.publons }}" target="_blank"><i class="ai ai-publons ai-fw" aria-hidden="true"></i> Publons</a></li>
+    {% endif %}
+
+     {% if site.author.github %}
+      <li style="list-style: none;"><a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+    {% endif %}
+</div>
+
 
 # Research Achievement and Interest
 My main scientific product achievement so far is the development of a parameterization for fire plume injection height which is now running operationally in the IFS model of ECMWF and was delivered in 2015 in the framework of the MACC project (see [here](
