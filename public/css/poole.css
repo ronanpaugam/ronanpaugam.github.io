@@ -305,8 +305,12 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
-}
+  font-weight: 300;}
+  @media (min-width: 71em) {
+    .lead {
+        padding-bottom: 1em;
+        }
+  }
 
 
 /*
