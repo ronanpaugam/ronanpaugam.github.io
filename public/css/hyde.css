@@ -34,7 +34,7 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   html {
     font-size: 16px;
   }
@@ -61,7 +61,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -81,7 +81,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   .bottombar {
     display: none;
   }
@@ -100,22 +100,22 @@ html {
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; */
   font-family: "Ropa Sans", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; */
   font-family: "Ropa Sans", serif;
-  font-size: 3.10rem;
+  font-size: 1.5rem;
 }
 }
 
 .sidebar-social {
   display: none;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
 .sidebar-social {
   display: block;
 }
@@ -130,7 +130,7 @@ html {
   -webkit-column-count: 2;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 71em) {
 .corecontent-social {
   display: none;
 }
@@ -140,7 +140,7 @@ html {
   display: block;
   margin-top: 0em;
 }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
 .corecontent-social-title {
   display: none;
 }
@@ -176,7 +176,7 @@ a.sidebar-nav-item:focus {
     position: relative;
     bottom: 0;
   }
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -197,7 +197,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 1rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -205,12 +205,12 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@media (min-width: 64em) {
+/*@media (min-width: 64em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
   }
-}
+}*/
 
 
 /*
@@ -219,23 +219,23 @@ a.sidebar-nav-item:focus {
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 71em) {
   .layout-reverse .sidebar {
     left: auto;
     right: 0;
   }
   .layout-reverse .content {
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-right: 20rem;
   }
 }
 
-@media (min-width: 64em) {
+/*@media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
   }
-}
+}*/
 
 
 /*

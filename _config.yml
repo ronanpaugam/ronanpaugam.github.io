@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'Ronan Paugam'
+title:            'Research in Fire/Atmospheric Science'
 tagline:          'My Research'
-description:      'Research in Fire/Atmospheric Science'
+description:      'Ronan Paugam'
 url:              "https://ronanpaugam.github.io"
 baseurl:          "/"
 
