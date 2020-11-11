@@ -263,6 +263,12 @@ img {
   margin-bottom: 1px;
 }
 
+.img-left-200 {
+
+  max-width: 200px;
+
+}
+
 /* ronan for _include/image.html*/
 .myimg {
   display: block;
