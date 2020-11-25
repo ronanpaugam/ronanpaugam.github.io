@@ -121,7 +121,7 @@ Skukuza4 is a 4.3 ha plot burnt on the 26th of August 2014. Ignition starts at 1
 
 |<i></i>| LWIR | MIR | VIS
 |:---|:---|:---|:---
-|%|% image removed | 12.7 | 3.34 | 0  
+|% image removed | 12.7 | 3.34 | 0  
 |ortho dx (m)| 0.5 | 0.5 | 0.5  |
 |**ortho dt stats (Hz)** |   |  |
 |min       | 0.11 |  0.4 | 0.5
