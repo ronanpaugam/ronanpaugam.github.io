@@ -483,3 +483,12 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+details {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 50px;
+	color: white;
+  background: rgba(0, 0, 0, 0.3)
+}
