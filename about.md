@@ -5,7 +5,7 @@ title: About Me
 ![placeholder](/data/ronan.paugam-150x150.jpg "ronan"){:class="img-left-150"}
 Since 2008, I have been active in fire science on both active fire monitoring and fire-plume modelling. I am currently a postdoctoral researcher at CERTEC at the Universitat de Cataluna (UPC) in Barcelona. I joined CERTEC in 2020 with a Marie Skłodowska-Curie H2020 Fellowship program. Before during the period 2019-2020, I worked in France: 1 year at CERFACS in Toulouse (France) with Dr Mélanie ROCHOUX and a short project of 5 months at the University of Corte with Dr Jean-Baptiste Filippi. Prior to that, I had a 10 years experience abroad. Before coming back to France, I was a visiting scholar of the University of Washington for 2 years (2016-2018) working with Dr William MELL at the US Forest Service Pacific Wildland Fire Sciences Lab (PWSL) in Seattle (USA), and a postdoctoral researcher for 8 years (2008-2015) in the Department of Geography of Kings College London (KCL, UK) with Prof. Martin WOOSTER. I performed my PhD in France at CERFACS from 2005 to 2008 on the subject of contrail interaction with atmospheric turbulence under the supervision of Dr Daniel CARIOLLE and Dr Roberto PAOLI.
 
-My CV is available [here](/data/cv-ronan-paugam_2023.pdf){:target="_blank"}.
+My CV is available [here]({{ site.url }}/data/cv-ronan-paugam_2023.pdf){:target="_blank"}.
 
 <h1 class="corecontent-social-title"> Academic Social Network </h1>
 <div class="corecontent-social">
