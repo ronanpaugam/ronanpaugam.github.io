@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Demo: Make a choropleth map</title>
+<title>Demo: World map of Wildand Industry Interface (WII)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
 <link
@@ -15,13 +15,17 @@ margin: 0;
 padding: 0;
 }
 h2,
-h3 {
+h3,h4 {
 margin: 10px;
 font-size: 16px;
 }
 h3 {
 font-size: 14px;
 }
+h4 {
+font-size: 12px;
+}
+
 p {
 margin: 10px;
 font-size: 12px;
@@ -59,10 +63,10 @@ width: 200px;
 #legend {
 padding: 10px;
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-line-height: 18px;
+line-height: 17px;
 height: 190px;
 margin-bottom: 25px;
-width: 80px;
+width: 90px;
 }
 .legend-key {
 display: inline-block;
@@ -84,7 +88,7 @@ margin-right: 5px;
 </div>
 
 <div class="map-overlay" id="legend">
-    <h2>WII/Fuel</h2>
+    <h4>WII/Fuel (%)</h4>
 </div>
 
 
@@ -113,14 +117,15 @@ map.fitBounds([
  
 // define layer names
 const layers = [
-'4.0e-6',
-'2.4e-5',
-'1.4e-4',
-'8.8e-4',
-'5.3e-3',
-'3.2e-2',
-'1.9e-1',
-'1.2'
+'0.0004',
+'0.002',
+'0.01',
+'0.08',
+'0.5',
+'3.0',
+'20.',
+'50.+',
+'no Fuel'
 ];
 const colors = [
 '#FFEDA0',
@@ -130,7 +135,8 @@ const colors = [
 '#FC4E2A',
 '#E31A1C',
 '#BD0026',
-'#800026'
+'#800026',
+'#000000'
 ];
  
 // create legend
@@ -153,15 +159,15 @@ legend.appendChild(item);
 // change info window on hover
 map.on('mousemove', (event) => {
 const prov = map.queryRenderedFeatures(event.point, {
-layers: ['province', 'province-simple2',]
+layers: ['province', 'province-simple',]
 });
-//const WIIoverFuel = String.format("%.2f", prov[0].properties.WIIoverFuel); 
+//const WIIoverFuel = Intl.NumberFormat("en-IN", {minimumFractionDigits: 2, maximumSignificantDigits: 3 }).format( prov[0].properties.WIIoverFuel); 
 
 document.getElementById('pd').innerHTML = prov.length
 ? `<h3>${prov[0].properties.nameCountry}</h3>
    <h3>${prov[0].properties.nameProvince}</h3>
-   <p>WII/Fuel = ${prov[0].properties.WIIoverFuel}</p>
-   <p>Indus. Area (ha) = ${prov[0].properties.IndusAera_ha}</p>`
+   <p>WII/Fuel = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( 100*prov[0].properties.WIIoverFuel)} %</p>
+   <p>Indus. Area = ${Intl.NumberFormat("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(prov[0].properties.IndusAera_ha)} ha</p>`
 : `<p>Hover over the map</p> <p> or zoom in to see single WII polygon</p>`;
 });
 
