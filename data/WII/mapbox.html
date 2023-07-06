@@ -50,7 +50,7 @@ width: 100%;
 top: 0;
 height: 140px;
 margin-top: 10px;
-width: 275px;
+width: 280px;
 }
 #features2 {
 bottom: 0;
@@ -83,7 +83,7 @@ margin-right: 5px;
 <div class="map-overlay" id="features">
 <h2>WII over Fuel Area per province</h2>
 <div id="pd">
-    <p>Hover over the map</p> <p> or zoom in to see single WII polygon</p>
+    <p>Hover over the map</p> <p> or zoom down to 10km scale to see <strong> individual WII polygons </strong> </p>
 </div>
 </div>
 
@@ -117,12 +117,12 @@ map.fitBounds([
  
 // define layer names
 const layers = [
-'0.0004',
-'0.002',
+'0.0001',
+'0.001',
 '0.01',
-'0.08',
-'0.5',
-'3.0',
+'0.1',
+'1.0',
+'10.',
 '20.',
 '50.+',
 'no Fuel'
@@ -168,7 +168,7 @@ document.getElementById('pd').innerHTML = prov.length
    <h3>${prov[0].properties.nameProvince}</h3>
    <p>WII/Fuel = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( 100*prov[0].properties.WIIoverFuel)} %</p>
    <p>Indus. Area = ${Intl.NumberFormat("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(prov[0].properties.IndusAera_ha)} ha</p>`
-: `<p>Hover over the map</p> <p> or zoom in to see single WII polygon</p>`;
+        : `<p>Hover over the map</p> <p> or zoom down to 10km scale to see <strong> individual WII polygons</strong> </p>`;
 });
 
 
