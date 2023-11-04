@@ -44,7 +44,9 @@ transfer model.
 # My Publications
 
 ### Peer-reviewed publications:
-1. **Paugam, Ronan**, Martin J. Wooster, William E. Mell, Mélanie C. Rochoux, Jean-Baptiste Filippi, Gernot Rücker, Olaf Frauenberger, Eckehard Lorenz, Wilfrid Schroeder, Bruce Main, and Navashni Govender. 2021. "Orthorectification of Helicopter-Borne High Resolution Experimental Burn Observation from Infra Red Handheld Imagers" Remote Sensing 13, no. 23: 4913. 
+1.	Planas E., **Paugam R.**, Àgueda A., Vacca P., Pastor E., 2023, Fires at the wildland-industrial interface. Is there an emerging problem?, Fire Safety Journal, Volume 141. 
+[![link](/data/link-symbol.svg){:style='display:inline-block; vertical-align:text-top; height:15px; width=15px'}](https://doi.org/10.1016/j.firesaf.2023.103906){:target="_blank"}
+1. **Paugam, R.**, Martin J. Wooster, William E. Mell, Mélanie C. Rochoux, Jean-Baptiste Filippi, Gernot Rücker, Olaf Frauenberger, Eckehard Lorenz, Wilfrid Schroeder, Bruce Main, and Navashni Govender. 2021. "Orthorectification of Helicopter-Borne High Resolution Experimental Burn Observation from Infra Red Handheld Imagers" Remote Sensing 13, no. 23: 4913. 
 [![link](/data/link-symbol.svg){:style='display:inline-block; vertical-align:text-top; height:15px; width=15px'}](https://doi.org/10.3390/rs13234913){:target="_blank"}
 1.	Evangeliou, N., Kylling, A., Eckhardt, S., Myroniuk, V., Stebel, K., **Paugam, R.**, Zibtsev, S., and Stohl, A.: Open fires in Greenland in summer 2017: transport, deposition and radiative effects of BC, OC and BrC emissions, Atmos. Chem. Phys., 19, 1393-1411, 2019.
 [![link](/data/link-symbol.svg){:style='display:inline-block; vertical-align:text-top; height:15px; width=15px'}](https://www.atmos-chem-phys.net/19/1393/2019/){:target="_blank"}
