@@ -156,11 +156,11 @@ const prov = map.queryRenderedFeatures(event.point, {
 layers: ['wuitips-wui-metrics-townm-eu-v1-data', 'wuimetricsnuts']
 });
 //const THS area /admin. area = Intl.NumberFormat("en-IN", {minimumFractionDigits: 2, maximumSignificantDigits: 3 }).format( prov[0].properties.HSP_A_relation); 
+//<h3>${prov[0].properties.name}</h3>
 
 document.getElementById('pd').innerHTML = prov.length
-? `<h3>${prov[0].properties.CNTR_CODE}</h3>
-   <h3>${prov[0].properties.name}</h3>
-   <p>Hot spot density = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( prov[0].properties.HSP_A_relation)} (# hot sport/ km2)</p>`
+? `<h3>${prov[0].properties.CNTR_CODE}</h3
+   <p>THS area /admin. area = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( prov[0].properties.HSP_A_relation)} (-)</p>`
         : `<p>hover the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons</strong> </p>`;
 });
 
