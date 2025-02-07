@@ -83,7 +83,7 @@ margin-right: 5px;
 <div class="map-overlay" id="features">
 <h2>Ratio of Touristic Hotspot (THS) and administrative areas</h2>
 <div id="pd">
-    <p>Hover over the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons </strong> </p>
+    <p>Hover hover the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons </strong> </p>
 </div>
 </div>
 
@@ -117,6 +117,7 @@ map.fitBounds([
  
 // define layer names
 const layers = [
+'0.0',
 '0.00001',
 '0.0001',
 '0.001',
@@ -157,11 +158,10 @@ layers: ['wuitips-wui-metrics-townm-eu-v1-data', 'wuimetricsnuts']
 //const THS area /admin. area = Intl.NumberFormat("en-IN", {minimumFractionDigits: 2, maximumSignificantDigits: 3 }).format( prov[0].properties.HSP_A_relation); 
 
 document.getElementById('pd').innerHTML = prov.length
-? `<h3>${prov[0].properties.name}</h3>
-   <h3>${prov[0].properties.LAU_NAME}</h3>
-   <p>Hot spot density = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( 100*prov[0].properties.HSP_density)} (# hot sport/ km2)</p>
-   <p>WUI Area = ${Intl.NumberFormat("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(prov[0].properties.AREA_KM2)} km2</p>`
-        : `<p>Hover over the map</p> <p> or zoom down to 2km scale to see <strong> individual WUI polygons</strong> </p>`;
+? `<h3>${prov[0].properties.CNTR_CODE}</h3>
+   <h3>${prov[0].properties.name}</h3>
+   <p>Hot spot density = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( prov[0].properties.HSP_A_relation)} (# hot sport/ km2)</p>`
+        : `<p>hover the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons</strong> </p>`;
 });
 
 
