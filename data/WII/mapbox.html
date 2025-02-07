@@ -159,7 +159,7 @@ legend.appendChild(item);
 // change info window on hover
 map.on('mousemove', (event) => {
 const prov = map.queryRenderedFeatures(event.point, {
-layers: ['province', 'province-simple',]
+layers: ['province-simple','province2',]
 });
 // Log the feature properties to the console
 console.log("Hovered Features:", prov);
