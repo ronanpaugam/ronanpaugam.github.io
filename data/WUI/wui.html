@@ -83,7 +83,7 @@ margin-right: 5px;
 <div class="map-overlay" id="features">
 <h2>Ratio of Touristic Hotspot (THS) and administrative areas</h2>
 <div id="pd">
-    <p>Hover hover the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons </strong> </p>
+    <p>Hover hover the map</p> <p> or zoom down to 3km scale to see <strong> individual THS and WUI polygons </strong> </p>
 </div>
 </div>
 
@@ -153,15 +153,15 @@ legend.appendChild(item);
 // change info window on hover
 map.on('mousemove', (event) => {
 const prov = map.queryRenderedFeatures(event.point, {
-layers: ['wuitips-wui-metrics-townm-eu-v1-data', 'wuimetricsnuts']
+layers: ['province', 'province-simple',]
 });
 //const THS area /admin. area = Intl.NumberFormat("en-IN", {minimumFractionDigits: 2, maximumSignificantDigits: 3 }).format( prov[0].properties.HSP_A_relation); 
 //<h3>${prov[0].properties.name}</h3>
-
 document.getElementById('pd').innerHTML = prov.length
-? `<h3>${prov[0].properties.CNTR_CODE}</h3>
-   <p>THS area /admin. area = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( prov[0].properties.HSP_A_relation)} (-)</p>`
-        : `<p>hover the map</p> <p> or zoom down to 3km scale to see <strong> individual WUI polygons</strong> </p>`;
+? `<h3>${prov[0].properties.nameProvince}</h3>
+   <p>WII/Fuel = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2 }).format( 100*prov[0].properties.WIIoverFuel)} %</p>`
+        : `<p>Hover over the map</p> <p> or zoom down to 10km scale to see <strong> individual WII polygons</strong> </p>`;
+
 });
 
 
