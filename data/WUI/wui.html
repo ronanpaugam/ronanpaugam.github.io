@@ -104,16 +104,17 @@ container: 'map', // container id
 style: 'mapbox://styles/ronan-p33/cm5h5n2jm000h01rz6wumh1r0' // map style URL from Mapbox Studio
 });
 
+
 // wait for map to load before adjusting it
 map.on('load', () => {
 // make a pointer cursor
 map.getCanvas().style.cursor = 'default';
  
 // set map bounds to the continental US
-map.fitBounds([
-[-32, -10],
-[42, 80]
-]);
+//map.fitBounds([
+//[-32, -10],
+//[42, 80]
+//]);
  
 // define layer names
 const layers = [
