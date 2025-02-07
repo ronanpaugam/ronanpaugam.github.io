@@ -162,8 +162,8 @@ layers: ['wuitips-wui-metrics-townm-eu-v2','wuimetricsnuts']
 console.log("Hovered Features:", prov);
 
 document.getElementById('pd').innerHTML = prov.length
-? `<h3>country: ${prov[0].properties.CNTR_CODE} </h3> 
-   <h3>admin area: ${prov[0].properties.name} </h3>
+? `<h3>country    : ${prov[0].properties.CNTR_CODE} </h3> 
+   <h3>admin. area: ${prov[0].properties.name} </h3>
    <p> THS area/ admin. area = ${Intl.NumberFormat("en-GB", {minimumFractionDigits: 1, maximumFractionDigits: 5 }).format( prov[0].properties.HSP_A_relation)} </p>`
 
         : `<p>Hover over the map</p> <p> or zoom down to 1km scale to see <strong> individual WII polygons</strong> </p> `;
