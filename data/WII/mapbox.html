@@ -161,7 +161,8 @@ map.on('mousemove', (event) => {
 const prov = map.queryRenderedFeatures(event.point, {
 layers: ['province', 'province-simple',]
 });
-//const WIIoverFuel = Intl.NumberFormat("en-IN", {minimumFractionDigits: 2, maximumSignificantDigits: 3 }).format( prov[0].properties.WIIoverFuel); 
+// Log the feature properties to the console
+console.log("Hovered Features:", prov);
 
 document.getElementById('pd').innerHTML = prov.length
 ? `<h3>${prov[0].properties.nameCountry}</h3>
